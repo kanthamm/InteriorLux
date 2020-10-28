@@ -1,0 +1,68 @@
+.social a{
+  font-size:4.5em;
+  padding:3rem;
+}/*
+.fa-instagram
+{
+back: url('data:image/jpeg;base64,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');
+
+color:
+}*/
+.fa-instagram {
+    color: #fff;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+  }
+
+/*---Media Queries --*/
+@media (max-width: 992px) 
+{
+  .social a{
+    font-size: 4em;
+    padding: 2rem;
+  } 
+}
+@media (max-width: 768px)
+{
+  
+.social a{
+  font-size: 2.5em;
+  padding: 1.2rem;
+} 
+}
+@media (max-width: 576px) 
+{
+  
+.social a{
+  font-size: 2em;
+  padding: 0.6rem;
+} 
+}
+.colorr
+{
+    color:green;
+}
+.container-fluid
+{
+    background-image: url('https://i.pinimg.com/originals/c2/30/12/c230125e70c24582eadece6f67975df6.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity:1;
+}
+
+.container
+{
+    /*background-image: url('https://i.pinimg.com/originals/c2/30/12/c230125e70c24582eadece6f67975df6.jpg');
+    */background-color:white;
+    font-weight: 600;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    opacity:0.8;
+    border:0px solid white; padding:50px 60px;margin-top:20vh;
+    -webkit-box-shadow: 3px 3px 16px 10px rgba(0,0,0,0.75);
+-moz-box-shadow: 3px 3px 16px 10px rgba(0,0,0,0.75);
+box-shadow: 3px 3px 16px 10px rgba(0,0,0,0.75);
+}
+.container
+{
+  text-align:left;
+}
